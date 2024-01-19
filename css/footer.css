@@ -1,6 +1,5 @@
 footer {
   background-color: #222222;
-  padding-bottom: 60px;
 }
 footer .wrap {
   display: flex;
@@ -16,6 +15,7 @@ footer .wrap h1 {
 
 footer .wrap ul.pnb {
   width: 60%;
+  display: none;
 }
 footer .wrap ul.pnb li {
   
@@ -32,9 +32,9 @@ footer .wrap ul.pnb li:not(:first-child) a{
   padding: 0 15px;
 }
 footer .wrap div{
-  width: 40%;
-  justify-content: end;
   align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 footer .wrap div ul.fnb{
 
@@ -57,12 +57,12 @@ footer .wrap a.blog {
   right: calc((100% - 1520px) / 2);
   top: 75px;
   font-size: 0;
-  width: 41px;
-  height: 41px;
-  background-image: url(../img/blog_btn.png);
+  width: 188px;
+  height: 33px;
+  background-image: url(../img/hd_logo_w.png);
 }
 footer .wrap address {
-  width: 100%;
+  width: 73%;
   color: #ccc;
 }
 footer .wrap address::before{
@@ -71,10 +71,8 @@ width: 100vw;
 display: block;
 border-top: 1px solid #ccc;
 margin-left: calc((1920px - 1520px) / -2);
-margin-bottom: 20px;
-
+margin-bottom: 15px;
 }
 footer .wrap  p {
-
   color: #ccc;
 }

@@ -1,5 +1,4 @@
 #title {
-  
   background-color: #e4e2e2;
 }
 #title .wrap {
@@ -16,7 +15,7 @@
   display: none;
 }
 #title .wrap .witem1{
-  background-image: url(../img/title_bg1.jpg);
+  background-image: url(../img/t1.jpg);
   color: white;
 }
 #title .wrap .witem2{
@@ -27,10 +26,10 @@
 }
 #title .wrap h2 {
   order: 2;
-}
-#title .wrap h2 span{
-  display: none;
+  margin-left: calc((100% - 1520px) / 2);
+  margin-bottom: 200px;
 }
 #title .wrap p {
   order: 1;
+  margin-left: calc((100% - 1520px) / 2);
 }
