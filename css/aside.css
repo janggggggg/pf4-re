@@ -1,0 +1,40 @@
+aside{
+  position: fixed;
+  right: 20px;
+  top: calc(50% - 43px);
+}
+aside ul{
+   
+}
+aside ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+aside ul li:nth-child(1){
+
+}
+aside ul li:nth-child(2){
+
+}
+aside ul li:nth-child(3){
+
+}
+aside ul li:nth-child(4){
+
+}
+aside ul li:nth-child(5){
+
+}
+aside ul li a{
+  font-size: 0;
+  width: 14px;
+  height: 14px;
+  display: block;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+.currentB{
+  background-color:blue;
+}
+.currentW{
+  background-color:white; 
+}
